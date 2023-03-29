@@ -40,6 +40,12 @@ body{
     font-family: 'Krona One', sans-serif;
 }
 
+.fonteh2{
+    font-family: 'Krona One', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+}
+
 
 .fontep{
     font-size: 24px;
@@ -49,20 +55,29 @@ body{
 .botoes{
     display: flex;
     justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
 }
 
 .estilizar{
-    background-color: #22D4FD;
+    /* background-color: #22D4FD; */
+    justify-content: center;
+    display: flex;
     text-align: center;
-    width: 280px;
-    border-radius: 16px;
+    width: 378px;
+    border-radius: 8px;
     font-size: 24px;
     font-weight: 600;
     padding-top: 21.5px;
     padding-bottom: 21.5px;
     font-family: 'Montserrat', sans-serif;
     text-decoration: none;
-    color: black;
+    color: white;
+    border: 2px solid #22D4FD;
+    gap: 16px;
+    
+    
 
 
 }
